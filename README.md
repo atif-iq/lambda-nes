@@ -11,7 +11,10 @@ A NES emulator being written in C++ (Yes, there still is so much polishing and i
 
 <h4>ImGui</h4>
 
+<h3>Installation</h3>
+
 ```
+git clone https://github.com/atif-iq/lambda-nes
 cd lambda-nes
 git clone https://github.com/ocornut/imgui
 mv imgui vendor
