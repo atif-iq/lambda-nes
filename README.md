@@ -9,4 +9,9 @@ A NES emulator being written in C++ (yes ther still is so much olishing an imple
 <h4>Glad</h4>
 -> For opengl API
 
-<h4>ImGui (Present in the vendor folder no need to install manually)</h4>
+<h4>ImGui</h4>
+```
+cd lambda-nes
+git clone https://github.com/ocornut/imgui
+mv imgui vendor
+```
