@@ -8,6 +8,6 @@ OUT = APP
 build:
 	$(CXX) $(FLAGS) $(INCLUDE_DIRS) $(BIN) $(FILES) $(LINKER_FLAGS) -o $(OUT)
 build_bin:
-	$(CXX) $(FLAGS) -c $(INCLUDE_DIRS) vendor/imgui/*.cpp vendor/imgui/backends/imgui_impl_glfw.cpp vendor/imgui/backends/imgui_impl_opengl3.cpp glad/src/glad.c $(LINKER_FLAGS) && mkdir bin && mv *.o bin
+	$(CXX) $(FLAGS) -c $(INCLUDE_DIRS) vendor/imgui/*.cpp vendor/imgui/backends/imgui_impl_glfw.cpp vendor/imgui/backends/imgui_impl_opengl3.cpp vendor/glad/src/glad.c $(LINKER_FLAGS) && mkdir bin && mv *.o bin
 clean:
 	rm -rf bin
