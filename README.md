@@ -1,5 +1,5 @@
 # lambda-nes
-A NES emulator being written in C++ (yes ther still is so much olishing an implementation left)
+A NES emulator being written in C++ (Yes, there still is so much polishing and implementation left)
 
 <h2>DEPENDENCIES</h2> (Install manually)
 
