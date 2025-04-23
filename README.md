@@ -18,4 +18,6 @@ git clone https://github.com/atif-iq/lambda-nes
 cd lambda-nes
 git clone https://github.com/ocornut/imgui
 mv imgui vendor
+make build_bin
+make build
 ```
