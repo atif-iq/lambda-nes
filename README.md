@@ -1,12 +1,12 @@
 # lambda-nes
 A NES emulator being written in C++ (yes ther still is so much olishing an implementation left)
 
-#DEPENDENCIES (Install manually)
+<h2>DEPENDENCIES</h2> (Install manually)
 
-###GLFW
+<h4>GLFW</h4>
 -> For cross platform window management
 
-###Glad
+<h4>Glad</h4>
 -> For opengl API
 
-###ImGui (Present in the vendor folder no need to install manually)
+<h4>ImGui (Present in the vendor folder no need to install manually)</h4>
